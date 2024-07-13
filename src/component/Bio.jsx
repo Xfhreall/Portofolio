@@ -26,6 +26,7 @@ const Main = () => {
           <div className="left">
             <img
               src="https://i.postimg.cc/vB00R8mj/Gambar-Whats-App-2024-07-11-pukul-23-57-14-7ab4b3ea.jpg"
+              alt="gambar"
               data-aos="zoom-in"
               data-aos-duration="1000"
               // data-aos-delay="500"
@@ -56,7 +57,7 @@ const Main = () => {
             data-aos-duration="1500"
             data-aos-delay="300"
           >
-            <div className="text-subhead" style={{ lineHeight: "1" }}>
+            <div className="text-subhead" style={{ lineHeight: "1"}}>
               <h1 style={{ fontSize: "34px", letterSpacing: "1px" }}>
                 Front End
               </h1>
@@ -72,7 +73,7 @@ const Main = () => {
             </div>
             <div
               className="desc"
-              style={{ display: "flex", flexDirection: "column", gap: "10px" }}
+              style={{ display: "flex", flexDirection: "column", gap: "15px" }}
             >
               <p>
                 A software engineer based in Malang, Indonesia. I specialize in
@@ -108,6 +109,12 @@ const Main = () => {
                   target="blank"
                 ></a>
               </div>
+              <button className="home-button">
+                <a className="fa fa-download"></a>
+                <p style={{ fontSize: "14px" }} className="home-desc">
+                  Resume
+                </p>
+              </button>
             </div>
           </div>
           <div></div>
