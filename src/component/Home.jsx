@@ -1,8 +1,8 @@
 import "../style/Bio.css";
 
-const Main = () => {
+const About = () => {
   return (
-    <div
+    <section
       style={{
         display: "flex",
         justifyContent: "center",
@@ -25,6 +25,7 @@ const Main = () => {
         >
           <div className="left">
             <img
+              draggable="false"
               src="https://i.postimg.cc/vB00R8mj/Gambar-Whats-App-2024-07-11-pukul-23-57-14-7ab4b3ea.jpg"
               alt="gambar"
               data-aos="zoom-in"
@@ -57,7 +58,7 @@ const Main = () => {
             data-aos-duration="1500"
             data-aos-delay="300"
           >
-            <div className="text-subhead" style={{ lineHeight: "1"}}>
+            <div className="text-subhead" style={{ lineHeight: "1" }}>
               <h1 style={{ fontSize: "34px", letterSpacing: "1px" }}>
                 Front End
               </h1>
@@ -123,8 +124,8 @@ const Main = () => {
           © 2024 Risqi Achmad Fahreal, All Right Reserved
         </p>
       </div>
-    </div>
+    </section>
   );
 };
 
-export default Main;
+export default About;

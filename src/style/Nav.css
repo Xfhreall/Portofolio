@@ -1,19 +1,20 @@
 .navbar {
+  z-index: 100;
   display: flex;
   position: fixed;
-  justify-content: flex-end;
   width: 60vh;
   height: 100vh;
-  align-items: flex-end;
   color: white;
+  top: 87vh;
 }
 
-.list a {
+.list .nav_link {
+  cursor: pointer;
   text-decoration: none;
   text-transform: uppercase;
   color: rgb(141, 139, 139);
   font-size: 14px;
-  letter-spacing: 1px;
+  letter-spacing: 1.1px;
   font-weight: 500;
   transition: all 0.7s ease-in-out;
   -webkit-transition: all 0.7s ease-in-out;
@@ -21,12 +22,26 @@
   -ms-transition: all 0.7s ease-in-out;
   -o-transition: all 0.7s ease-in-out;
 }
-.list a:hover {
-  color: white;
+
+.list .nav_link.active {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+
+  border: 1px solid white;
+  padding: 6px;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
 }
 
 li {
   list-style: none;
+}
+
+.nav_link:hover {
+  color: white;
 }
 
 .list {
