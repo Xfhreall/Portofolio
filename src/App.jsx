@@ -9,7 +9,7 @@ const App = () => {
     <Router>
       <Nav />
       <Routes>
-        <Route path="/Portofolio" element={<Biodata />} />
+        <Route path="/Portofolio/home" element={<Biodata />} />
         <Route path="/Portofolio/project" element={<Project />} />
         <Route path="/Portofolio/contact" element={<Contact />} />
         <Route path="*" element={<Unknwon />} />
