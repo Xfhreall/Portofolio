@@ -26,7 +26,7 @@ const Nav = () => {
               }
               to="/Portofolio/project"
             >
-              Project
+              Projects
             </NavLink>
           </li>
           <li>
@@ -36,7 +36,7 @@ const Nav = () => {
               }
               to="/Portofolio/contact"
             >
-              Contact
+              Contacts
             </NavLink>
           </li>
         </ul>
