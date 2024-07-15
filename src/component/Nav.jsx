@@ -10,17 +10,17 @@ const Nav = () => {
       <nav className="navbar">
         <ul className="list">
           <li>
-            <NavLink className={"nav_link"} to="/">
+            <NavLink className={"nav_link"} to="/Portofolio/">
               Biodata
             </NavLink>
           </li>
           <li>
-            <NavLink className={"nav_link"} to="/project">
+            <NavLink className={"nav_link"} to="/Portofolio/project">
               Project
             </NavLink>
           </li>
           <li>
-            <NavLink className={"nav_link"} to="/contact">
+            <NavLink className={"nav_link"} to="/Portofolio/contact">
               Contact
             </NavLink>
           </li>

@@ -9,9 +9,9 @@ const App = () => {
     <Router>
       <Nav />
       <Routes>
-        <Route path="/" element={<Biodata />} />
-        <Route path="/project" element={<Project />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/Portofolio" element={<Biodata />} />
+        <Route path="/Portofolio/project" element={<Project />} />
+        <Route path="/Portofolio/contact" element={<Contact />} />
         <Route path="*" element={<Unknwon />} />
       </Routes>
       {/* <Biodata /> */}
