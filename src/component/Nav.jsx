@@ -16,7 +16,7 @@ const Nav = () => {
               }
               to="/Portofolio/home"
             >
-              Biodata
+              Biodatas
             </NavLink>
           </li>
           <li>
