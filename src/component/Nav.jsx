@@ -6,6 +6,7 @@ const Nav = () => {
       style={{ display: "flex", justifyContent: "center" }}
       data-aos="fade-up"
       data-aos-duration="2000"
+      data-aos-once="true"
     >
       <nav className="navbar">
         <ul className="list">
@@ -16,7 +17,7 @@ const Nav = () => {
               }
               to="/Portofolio/home"
             >
-              Biodatas
+              Biodata
             </NavLink>
           </li>
           <li>
@@ -26,7 +27,7 @@ const Nav = () => {
               }
               to="/Portofolio/project"
             >
-              Projects
+              Project
             </NavLink>
           </li>
           <li>
@@ -36,7 +37,7 @@ const Nav = () => {
               }
               to="/Portofolio/contact"
             >
-              Contacts
+              Contact
             </NavLink>
           </li>
         </ul>
