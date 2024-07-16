@@ -15,7 +15,7 @@ const Nav = () => {
               className={({ isActive }) =>
                 isActive ? "nav_link active" : "nav_link"
               }
-              to="/Portofolio/home"
+              to="/Portofolio/"
             >
               Biodata
             </NavLink>
