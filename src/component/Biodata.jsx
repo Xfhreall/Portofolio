@@ -29,7 +29,7 @@ const Biodata = () => {
             <div className="left">
               <img
                 draggable="false"
-                src="https://i.postimg.cc/vB00R8mj/Gambar-Whats-App-2024-07-11-pukul-23-57-14-7ab4b3ea.jpg"
+                src="https://i.pinimg.com/originals/82/0a/31/820a31ebc7a75832858aed4f0db952fb.jpg"
                 alt="gambar"
                 data-aos="zoom-in"
                 data-aos-duration="1000"
